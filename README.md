@@ -1,2 +1,2 @@
 # Python
-Python notes and project sample matrerial.
+Python notes and projects.
