@@ -33,9 +33,19 @@
 
 # print("Pi is approximately {0:12}".format(22/7))
 
-age = int(input("Hpw old are you? "))
+# age = int(input("Hpw old are you? "))
 
-if 16 <= age <= 65:
-    print("Have a good day at work")
-else:
-    print("Enjoy your free time!")
+# if 16 <= age <= 65:
+#     print("Have a good day at work")
+# else:
+#     print("Enjoy your free time!")
+
+quote = """
+Alright, but apart from the Sanitation, the Medicine, Education, Wine,
+Public Order, Irrigation, Roads, the Fresh-Water System,
+and Public Health, what have the Romans ever done for us?
+"""
+
+for char in quote:
+    if char.isupper():
+        print(char)
