@@ -53,6 +53,13 @@
 # for i in range (1, 10):
 #     print(i)
 
-for i in range (1, 13):
-    for j in range(1, 13):
-        print(i*j)
+# for i in range (1, 13):
+#     for j in range(1, 13):
+#         print(i*j)
+
+i = 0
+while i < 10:
+    print("i is now {}".format(i))
+    i += 1
+
+    #TODO: TEST THIS!
