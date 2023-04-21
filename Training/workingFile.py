@@ -40,12 +40,19 @@
 # else:
 #     print("Enjoy your free time!")
 
-quote = """
-Alright, but apart from the Sanitation, the Medicine, Education, Wine,
-Public Order, Irrigation, Roads, the Fresh-Water System,
-and Public Health, what have the Romans ever done for us?
-"""
+# quote = """
+# Alright, but apart from the Sanitation, the Medicine, Education, Wine,
+# Public Order, Irrigation, Roads, the Fresh-Water System,
+# and Public Health, what have the Romans ever done for us?
+# """
 
-for char in quote:
-    if char.isupper():
-        print(char)
+# for char in quote:
+#     if char.isupper():
+#         print(char)
+
+# for i in range (1, 10):
+#     print(i)
+
+for i in range (1, 13):
+    for j in range(1, 13):
+        print(i*j)
